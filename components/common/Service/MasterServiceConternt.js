@@ -1,22 +1,43 @@
 import React from "react";
+import { FaCheckCircle, FaHistory, FaTools, FaSmile, FaGlobe, FaTags, FaCogs, FaLeaf } from "react-icons/fa";
 
 const MasterServiceContent = ({
   link,
   title,
   service,
   marijuana,
-  lastChild,
+  lastChild,icon,iconBg
 }) => {
   return (
     <div
-      className={`${!marijuana ? "media" : ""} ${
-        lastChild ? "border-0 m-0" : ""
-      }`}
+      
     >
-      <div dangerouslySetInnerHTML={{ __html: link }} />
+      <div style={{
+        display:'flex',
+        justifyContent:'center',
+      }}>
+        <div style={{
+          backgroundColor:iconBg,
+        padding:12,
+        borderRadius:"100%"
+
+        }}>
+      {icon}
+
+        </div>
+      </div>
       <div className="media-body">
-        <h4>{title}</h4>
-        <p>{service}</p>
+        <div style={{
+          textAlign:'center',
+          paddingTop:10,
+          fontSize:16,
+          fontWeight:'600',
+        }}>{title}</div>
+        <div style={{
+          textAlign:'center',
+          paddingTop:5,
+          color:'gray'
+        }} >{service}</div>
       </div>
     </div>
   );

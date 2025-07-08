@@ -12,7 +12,11 @@ import { Product4 } from "../services/script";
 import Helmet from "react-helmet";
 import MasterFooter from "../components/footers/common/MasterFooter";
 import HeaderFive from "../components/headers/Header-five";
-
+import { Media } from "reactstrap";
+import iso from '../public/assets/images/iso.jpg'
+import OurJourney from "./component/ourJorunery";
+import FactoryInfrastructureComponent from "./component/infrature";
+import MajorProductsComponent from "./component/majoryproducts";
 const Tools = () => {
   useEffect(() => {
     document.documentElement.style.setProperty("--theme-deafult", "#ff4c3b");
@@ -37,10 +41,25 @@ const Tools = () => {
         {/* <HeaderSix logoName={"logo.jpg"} direction="right" /> */}
         <Banner />
         <Service layoutClass="banner-padding absolute-banner pb-0 tools-service" />
-        <AboutSection />
         <Category />
       
-      
+        <AboutSection />
+        <OurJourney />
+        <FactoryInfrastructureComponent/>
+        <MajorProductsComponent />
+      <section style={{
+        justifyContent:'center',
+        display:'flex',
+        flexDirection:'row',
+        alignItems:'center',
+        paddingBottom:40
+
+      }}>
+        <Media src={iso.src} style={{
+          height:100,
+
+        }} />
+      </section>
      
         <MasterFooter
           footerClass={"sticky-footer  blur-up lazyloaded"}

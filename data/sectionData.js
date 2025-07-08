@@ -12,6 +12,8 @@ import a7 from '../public/assets/images/tools/category/15.jpg'
 import a8 from '../public/assets/images/tools/category/16.jpg'
 import a9 from '../public/assets/images/tools/category/17.jpg'
 import a10 from '../public/assets/images/tools/category/18.jpg'
+import a11 from '../public/assets/images/tools/category/19.jpg'
+import a12 from '../public/assets/images/tools/category/20.jpg'
 
 export const sectionData = [
 
@@ -136,6 +138,22 @@ export const sectionData = [
         { title: "", link: "#" },
       ],
       link: "/shop/sidebar_popup?category=Leather%20Goods",
+    },
+    {
+      img:a11,
+      title: "Garden Tools",
+      features: [
+        { title: "", link: "#" },
+      ],
+      link: "/shop/sidebar_popup?category=Garden%20Tools",
+    },
+    {
+      img:a12,
+      title: "Cutters and Pincers",
+      features: [
+        { title: "", link: "#" },
+      ],
+      link: "/shop/sidebar_popup?category=Cutters%20and%20Pincers",
     },
   ];
   

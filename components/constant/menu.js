@@ -21,14 +21,16 @@ export const MENUITEMS = [
   },
   {
     title: "Product Range",
-    type: "sub",
-    children: sectionData.map(s=>{
-      return {
-        title:s.title,
-        path:s.link,
-        type:'link'
-      }
-    })
+    type: "link",
+    path:"/shop/catogery"
+
+    // children: sectionData.map(s=>{
+    //   return {
+    //     title:s.title,
+    //     path:s.link,
+    //     type:'link'
+    //   }
+    // })
   },
   {
     title: "Contact Us",

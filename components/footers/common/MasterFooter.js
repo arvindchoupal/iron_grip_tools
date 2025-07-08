@@ -46,7 +46,6 @@ const MasterFooter = ({
   }, []);
   return (
     <div style={{
-      marginTop:40
     }}>
       
       <footer className={footerClass}>
@@ -55,7 +54,7 @@ const MasterFooter = ({
             <Row className="footer-theme partition-f">
             
           
-              <Col lg="4" md="6">
+              <Col lg="6" md="6">
                 <div
                   className={`footer-title ${
                     isOpen && collapse == 1 ? "active" : ""
@@ -75,86 +74,21 @@ const MasterFooter = ({
                     <div className="footer-logo">
                       <LogoImage logo={logoName} />
                     </div>
+                    <p style={{
+                      fontWeight:'500',
+                      fontSize:15
+                    }} >
+                                       Crafted with precision and built to last, our hand tools are designed to deliver unmatched reliability and efficiency. Whether you're working on small home projects or large industrial tasks, our tools are made for ultimate performance.
+
+                            </p>
                     <p>
-                    Crafted with precision and built to last, our hand tools are designed to deliver unmatched reliability and efficiency. Whether you're working on small home projects or large industrial tasks, our tools are made for ultimate performance.
                     </p>
                 
                   </div>
                 </Collapse>
               </Col>
-              <Col >
-                <div className="sub-title">
-                  <div
-                    className={`footer-title ${
-                      isOpen && collapse == 3 ? "active" : ""
-                    } `}>
-                    <h4
-                      onClick={() => {
-                        if (width) {
-                          setIsOpen(!isOpen);
-                          setCollapse(3);
-                        } else setIsOpen(true);
-                      }}>
-                     Top Items
-                      <span className="according-menu"></span>
-                    </h4>
-                  </div>
-                  <Collapse
-                    isOpen={width ? (collapse === 3 ? isOpen : false) : true}>
-                    <div className="footer-contant">
-                    <ul>
-
-                      {itemData.products.items.slice(0,5).map(s=>{
-                        return (
-                          <li>
-                          <a href={`/product-details/${s.id}`}>{s.title}</a>
-                        </li>
-                        )
-                      })}
-                       
-                      
-                      </ul>
-                    </div>
-                  </Collapse>
-                </div>
-              </Col>
-              <Col >
-                <div className="sub-title">
-                  <div
-                    className={`footer-title ${
-                      isOpen && collapse == 3 ? "active" : ""
-                    } `}>
-                    <h4
-                      onClick={() => {
-                        if (width) {
-                          setIsOpen(!isOpen);
-                          setCollapse(3);
-                        } else setIsOpen(true);
-                      }}>
-                      Top Catogeries
-                      <span className="according-menu"></span>
-                    </h4>
-                  </div>
-                  <Collapse
-                    isOpen={width ? (collapse === 3 ? isOpen : false) : true}>
-                    <div className="footer-contant">
-                    <ul>
-
-                      {sectionData.slice(0,5).map(s=>{
-                        return (
-                          <li>
-                          <a href={s.link}>{s.title}</a>
-                        </li>
-                        )
-                      })}
-                       
-                      
-                      </ul>
-                    </div>
-                  </Collapse>
-                </div>
-              </Col>
-              <Col >
+        
+              <Col  lg="6" md="6">
                 <div className="sub-title">
                   <div
                     className={`footer-title ${
@@ -173,17 +107,36 @@ const MasterFooter = ({
                   </div>
                   <Collapse
                     isOpen={width ? (collapse === 4 ? isOpen : false) : true}>
-                    <div className="footer-contant">
+                    <div  className="footer-contant">
                       <ul className="contact-list">
                         <li>
-                          <i className="fa fa-map-marker"></i>Dholewal Chowk, Ludhiana Pin 141003
+                          <i className="fa fa-map-marker"></i><div style={{
+                      fontWeight:'500',
+                      fontSize:15
+                    }} >
+                      Dholewal Chowk, Ludhiana Pin 141003
+                            </div> 
                         </li>
                         <li>
-                          <i className="fa fa-phone"></i>Call Us:  +91 7087497599
+                          <i className="fa fa-phone"></i>
+                          <div style={{
+                      fontWeight:'500',
+                      fontSize:15
+                    }} >
+                     Call Us:  +91 7807954787
+                            </div>
+                          
                         </li>
                         <li>
-                          <i className="fa fa-envelope-o"></i>Email Us:{" "}
-                          <a href="#">exports@irongriptools.in</a>
+                          <i className="fa fa-envelope-o"></i>
+                          <div style={{
+                      fontWeight:'500',
+                      fontSize:15
+                    }} >
+                         Email Us:{" "}
+                        exports@irongriptools.in
+                            </div>
+                    
                         </li>
                       
                       </ul>

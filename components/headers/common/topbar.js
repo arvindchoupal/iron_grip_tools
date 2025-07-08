@@ -10,10 +10,9 @@ const TopBar = ({ topClass }) => {
           <Col lg="6">
             <div  className="header-contact">
               <ul>
-                <li>Welcome to Iron Grip Tools</li>
                 <li>
                   <i className="fa fa-phone" aria-hidden="true"></i>
-                  {"Call Us"}:  +91 7087497599
+                  {"Call Us"}:  +91 7807954787
                 </li>
               </ul>
             </div>

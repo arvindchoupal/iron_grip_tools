@@ -8,12 +8,7 @@ const Data = sectionData;
 const styles = {
   categoryItem: {
     textAlign: "center",
-    padding: "15px",
-    border: "1px solid #ddd",
-    borderRadius: "8px",
-    background: "#fff",
-    transition: "transform 0.3s",
-    cursor: "pointer",
+  
   },
   categoryItemHover: {
     transform: "translateY(-5px)",
@@ -90,13 +85,15 @@ const MasterCategory = ({ img, title, features }) => {
   );
 };
 
-const Category = () => {
+const Category = ({hideTop}) => {
   const router = useRouter()
   return (
     <Fragment>
-      <section className="pt-0 category-tools ratio3_2">
+      <section style={{
+        paddingTop:hideTop?"25px":'30px'
+      }} className="category-tools ratio3_2">
         <div className="title3">
-          <h2 className="title-inner3">Our Top Categories</h2>
+          <h2 className="title-inner3">Our Categories</h2>
           <div className="line"></div>
         </div>
         <Container>

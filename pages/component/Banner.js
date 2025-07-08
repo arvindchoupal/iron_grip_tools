@@ -1,30 +1,74 @@
 import React, { Fragment } from "react";
 import Slider from "react-slick";
-import { Container, Row, Col, Media } from "reactstrap";
-import tool3 from "../../public/assets/images/tools/3.png";
-import tool4 from "../../public/assets/images/tools/4.png";
-import tool1 from "../../public/assets/images/tools/1.png";
+import { Container, Row } from "reactstrap";
 
 const Banner = () => {
+  const settings = {
+    dots: false, // Set to true if you want navigation dots
+    infinite: true, // Allows infinite looping of slides
+    speed: 1000, // Transition speed (in milliseconds)
+    slidesToShow: 1, // Number of slides visible at a time
+    slidesToScroll: 1, // Number of slides to scroll at a time
+    autoplay: true, // Enables auto-play
+    autoplaySpeed: 5000, // Delay between slides (in milliseconds)
+    fade: true, // Adds a fade transition effect
+  };
+
   return (
     <Fragment>
       <section id="tool-bg" className="p-0 height-85 tools_slider">
-        <Slider  className="slide-1 home-slider">
+        <Slider {...settings} className="slide-1 home-slider">
           <div>
-            <div  className="home text-center home49">
-   
+            <div className="home text-center home49">
+              <div style={{
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
+                height:'100%',
+              }}> 
+   {/* Background image for slide 1 */}
+
+              </div>
+           
+            </div>
+          </div>
+          <div>
+            <div className="home text-center home51">
+              <div style={{
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
+                height:'100%',
+              }}> 
+   {/* Background image for slide 1 */}
+
+              </div>
+           
             </div>
           </div>
           <div>
             <div className="home text-center tools-bg0 home50">
               <Container>
                 <Row>
-                
+                  {/* Additional content for slide 2 */}
                 </Row>
                 <div className="tools-parts" id="tool-3">
-                  {/* <Media src={tool1.src} className="img-fluid" alt="" /> */}
+                  {/* Placeholder for additional content */}
                 </div>
               </Container>
+            </div>
+          </div>
+          <div>
+            <div className="home text-center home53">
+              <div style={{
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
+                height:'100%',
+              }}> 
+
+              </div>
+           
             </div>
           </div>
         </Slider>

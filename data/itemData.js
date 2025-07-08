@@ -5,7 +5,348 @@ export const itemData = {
         {
           "__typename": "Product",
           "id": 1001,
-          "title": "Combination Spanners (IG-2001)",
+          "title": "Double Open End Spanner (IG-1001)",
+          "description": "DIN-3110 standard, press panel, head set at 15° angle, chrome vanadium, duly hardened and tempered, nickel chrome plated.",
+          "type": "hand tools",
+          "brand": "Soldier Hand Tools",
+          "category": "Spanners",
+          "price": null,
+          "stock": null,
+          "new": null,
+          "sale": null,
+          "discount": null,
+          "variants": [
+            {
+              "__typename": "Variants",
+              "id": "IG-1001-MM",
+              "sku": "IG-1001-MM",
+              "size": "Metric Sizes",
+              "color": "Silver",
+              "image_id": 1001
+            },
+            {
+              "__typename": "Variants",
+              "id": "IG-1001-SAE",
+              "sku": "IG-1001-SAE",
+              "size": "SAE Sizes",
+              "color": "Silver",
+              "image_id": 1001
+            }
+          ],
+          "images": [
+            {
+              "__typename": "Images",
+              "image_id": 1001,
+              "id": "IG-1001-MM",
+              "alt": "Double Open End Spanner Metric Sizes",
+              "src": "/assets/images/tools/double_open_end_spanner_metric.jpg"
+            },
+            {
+              "__typename": "Images",
+              "image_id": 1001,
+              "id": "IG-1001-SAE",
+              "alt": "Double Open End Spanner SAE Sizes",
+              "src": "/assets/images/tools/double_open_end_spanner_sae.jpg"
+            }
+          ],
+          "table": [
+            {
+              "column": [
+                { "field": "Size (MM)", "width": 200 },
+                { "field": "Size (SAE)", "width": 200 },
+                { "field": "Length (MM)", "width": 200 },
+                { "field": "Weight (GMS)", "width": 200 }
+              ],
+              "rows": [
+                { "Size (MM)": "6 x 7", "Size (SAE)": "1/4 x 5/16", "Length (MM)": "122", "Weight (GMS)": "24" },
+                { "Size (MM)": "8 x 9", "Size (SAE)": "5/16 x 11/32", "Length (MM)": "140", "Weight (GMS)": "32" },
+                { "Size (MM)": "8 x 10", "Size (SAE)": "5/16 x 3/8", "Length (MM)": "140", "Weight (GMS)": "30" },
+                { "Size (MM)": "10 x 11", "Size (SAE)": "3/8 x 7/16", "Length (MM)": "157", "Weight (GMS)": "55" },
+                { "Size (MM)": "12 x 13", "Size (SAE)": "7/16 x 1/2", "Length (MM)": "172", "Weight (GMS)": "76" },
+                { "Size (MM)": "13 x 17", "Size (SAE)": "1/2 x 11/16", "Length (MM)": "205", "Weight (GMS)": "135" },
+                { "Size (MM)": "14 x 15", "Size (SAE)": "1/2 x 9/16", "Length (MM)": "190", "Weight (GMS)": "112" },
+                { "Size (MM)": "16 x 17", "Size (SAE)": "19/32 x 11/16", "Length (MM)": "205", "Weight (GMS)": "130" },
+                { "Size (MM)": "17 x 19", "Size (SAE)": "5/8 x 3/4", "Length (MM)": "222", "Weight (GMS)": "165" },
+                { "Size (MM)": "18 x 19", "Size (SAE)": "", "Length (MM)": "222", "Weight (GMS)": "165" },
+                { "Size (MM)": "19 x 22", "Size (SAE)": "3/4 x 7/8", "Length (MM)": "236", "Weight (GMS)": "200" },
+                { "Size (MM)": "20 x 22", "Size (SAE)": "25/32 x 7/8", "Length (MM)": "236", "Weight (GMS)": "210" },
+                { "Size (MM)": "21 x 23", "Size (SAE)": "", "Length (MM)": "250", "Weight (GMS)": "240" },
+                { "Size (MM)": "22 x 24", "Size (SAE)": "7/8 x 15/16", "Length (MM)": "250", "Weight (GMS)": "250" },
+                { "Size (MM)": "24 x 26", "Size (SAE)": "15/16 x 1", "Length (MM)": "265", "Weight (GMS)": "315" },
+                { "Size (MM)": "24 x 27", "Size (SAE)": "", "Length (MM)": "265", "Weight (GMS)": "315" },
+                { "Size (MM)": "25 x 28", "Size (SAE)": "1 x 1.1/8", "Length (MM)": "280", "Weight (GMS)": "360" },
+                { "Size (MM)": "30 x 32", "Size (SAE)": "", "Length (MM)": "302", "Weight (GMS)": "485" }
+              ]
+            },
+            {
+              "column": [
+                { "field": "Code", "width": 200 },
+                { "field": "Set Sizes (MM)", "width": 200 },
+                { "field": "Weight (GMS)", "width": 200 }
+              ],
+              "rows": [
+                { "Code": "60 M", "Set Sizes (MM)": "6x7, 8x9, 10x11, 14x15, 16x17, 18x19", "Weight (GMS)": "518" },
+                { "Code": "61 M", "Set Sizes (MM)": "6x7, 8x9, 10x11, 12x13, 14x15, 16x17", "Weight (GMS)": "429" },
+              ]},]},
+              {
+                "__typename": "Product",
+                "id": 1002,
+                "title": "Double Open End Spanner (IG-1002)",
+                "description": "DIN-3110 standard, elliptical pattern, head set at 15° angle, chrome vanadium, duly hardened and tempered, nickel chrome plated.",
+                "type": "hand tools",
+                "brand": "Soldier Hand Tools",
+                "category": "Spanners",
+                "price": null,
+                "stock": null,
+                "new": null,
+                "sale": null,
+                "discount": null,
+                "variants": [
+               
+                ],
+                "images": [
+                  {
+                    "__typename": "Images",
+                    "image_id": 1002,
+                    "id": "IG-1002-MM",
+                    "alt": "Double Open End Spanner Metric Sizes",
+                    "src": "/assets/images/tools/double_open_end_spanner_metric.jpg"
+                  },
+                  {
+                    "__typename": "Images",
+                    "image_id": 1002,
+                    "id": "IG-1002-SAE",
+                    "alt": "Double Open End Spanner SAE Sizes",
+                    "src": "/assets/images/tools/double_open_end_spanner_sae.jpg"
+                  }
+                ],
+                "table": [
+                  {
+                    "column": [
+                      { "field": "Size (MM)", "width": 200 },
+                      { "field": "Size (SAE)", "width": 200 },
+                      { "field": "Length (MM)", "width": 200 },
+                      { "field": "Weight (GMS)", "width": 200 }
+                    ],
+                    "rows": [
+                      { "Size (MM)": "6 x 7", "Size (SAE)": "1/4 x 5/16", "Length (MM)": "122", "Weight (GMS)": "24" },
+                      { "Size (MM)": "8 x 9", "Size (SAE)": "5/16 x 11/32", "Length (MM)": "140", "Weight (GMS)": "32" },
+                      { "Size (MM)": "8 x 10", "Size (SAE)": "5/16 x 3/8", "Length (MM)": "140", "Weight (GMS)": "30" },
+                      { "Size (MM)": "10 x 11", "Size (SAE)": "3/8 x 7/16", "Length (MM)": "157", "Weight (GMS)": "55" },
+                      { "Size (MM)": "12 x 13", "Size (SAE)": "7/16 x 1/2", "Length (MM)": "172", "Weight (GMS)": "76" },
+                      { "Size (MM)": "13 x 17", "Size (SAE)": "1/2 x 11/16", "Length (MM)": "205", "Weight (GMS)": "135" },
+                      { "Size (MM)": "14 x 15", "Size (SAE)": "1/2 x 9/16", "Length (MM)": "190", "Weight (GMS)": "112" },
+                      { "Size (MM)": "16 x 17", "Size (SAE)": "19/32 x 11/16", "Length (MM)": "205", "Weight (GMS)": "130" },
+                      { "Size (MM)": "17 x 19", "Size (SAE)": "5/8 x 3/4", "Length (MM)": "222", "Weight (GMS)": "165" },
+                      { "Size (MM)": "18 x 19", "Size (SAE)": "", "Length (MM)": "222", "Weight (GMS)": "165" },
+                      { "Size (MM)": "19 x 22", "Size (SAE)": "3/4 x 7/8", "Length (MM)": "236", "Weight (GMS)": "200" },
+                      { "Size (MM)": "20 x 22", "Size (SAE)": "25/32 x 7/8", "Length (MM)": "236", "Weight (GMS)": "210" },
+                      { "Size (MM)": "21 x 23", "Size (SAE)": "", "Length (MM)": "250", "Weight (GMS)": "240" },
+                      { "Size (MM)": "22 x 24", "Size (SAE)": "7/8 x 15/16", "Length (MM)": "250", "Weight (GMS)": "250" },
+                      { "Size (MM)": "24 x 26", "Size (SAE)": "15/16 x 1", "Length (MM)": "265", "Weight (GMS)": "315" },
+                      { "Size (MM)": "24 x 27", "Size (SAE)": "", "Length (MM)": "265", "Weight (GMS)": "315" },
+                      { "Size (MM)": "25 x 28", "Size (SAE)": "1 x 1.1/8", "Length (MM)": "280", "Weight (GMS)": "360" },
+                      { "Size (MM)": "30 x 32", "Size (SAE)": "", "Length (MM)": "302", "Weight (GMS)": "485" }
+                    ]
+                  },
+                  {
+                    "column": [
+                      { "field": "Code", "width": 200 },
+                      { "field": "Set Sizes (MM)", "width": 200 },
+                      { "field": "Weight (GMS)", "width": 200 }
+                    ],
+                    "rows": [
+                      { "Code": "60 M", "Set Sizes (MM)": "6x7, 8x9, 10x11, 14x15, 16x17, 18x19", "Weight (GMS)": "518" },
+                      { "Code": "61 M", "Set Sizes (MM)": "6x7, 8x9, 10x11, 12x13, 14x15, 16x17", "Weight (GMS)": "429" },
+                    ]}]},
+               
+              
+                    
+
+              {
+                "__typename": "Product",
+                "id": 1003,
+                "title": "Double Open End Spanner  (IG-1003)",
+                "description": "DIN-3110 standard, recessed panel, double open end spanner with head set at 15° angle, made from chrome vanadium, duly hardened and tempered, nickel chrome plated.",
+                "type": "hand tools",
+                "brand": "Soldier Hand Tools",
+                "category": "Spanners",
+                "price": null,
+                "stock": null,
+                "new": null,
+                "sale": null,
+                "discount": null,
+                "variants": [],
+                "images": [
+                  {
+                    "__typename": "Images",
+                    "image_id": 1003,
+                    "id": "IG-1003-MM",
+                    "alt": "Combination Spanner Metric Sizes",
+                    "src": "/assets/images/tools/combination_spanner_metric.jpg"
+                  },
+                  {
+                    "__typename": "Images",
+                    "image_id": 1003,
+                    "id": "IG-1003-SAE",
+                    "alt": "Combination Spanner SAE Sizes",
+                    "src": "/assets/images/tools/combination_spanner_sae.jpg"
+                  }
+                ],
+                "table": [
+                  {
+                    "column": [
+                      { "field": "Size (MM)", "width": 200 },
+                      { "field": "Size (Inch)", "width": 200 },
+                      { "field": "Length (MM)", "width": 200 },
+                      { "field": "Weight (GMS)", "width": 200 }
+                    ],
+                    "rows": [
+                      { "Size (MM)": "6 x 7", "Size (Inch)": "1/4 x 5/16", "Length (MM)": "122", "Weight (GMS)": "20" },
+                      { "Size (MM)": "8 x 9", "Size (Inch)": "5/16 x 3/8", "Length (MM)": "140", "Weight (GMS)": "25" },
+                      { "Size (MM)": "10 x 11", "Size (Inch)": "3/8 x 7/16", "Length (MM)": "157", "Weight (GMS)": "45" },
+                      { "Size (MM)": "12 x 13", "Size (Inch)": "7/16 x 1/2", "Length (MM)": "172", "Weight (GMS)": "65" },
+                      { "Size (MM)": "14 x 15", "Size (Inch)": "1/2 x 9/16", "Length (MM)": "190", "Weight (GMS)": "90" },
+                      { "Size (MM)": "16 x 17", "Size (Inch)": "19/32 x 11/16", "Length (MM)": "205", "Weight (GMS)": "115" },
+                      { "Size (MM)": "17 x 19", "Size (Inch)": "5/8 x 3/4", "Length (MM)": "222", "Weight (GMS)": "125" },
+                      { "Size (MM)": "18 x 19", "Size (Inch)": "11/16 x 3/4", "Length (MM)": "222", "Weight (GMS)": "125" },
+                      { "Size (MM)": "19 x 22", "Size (Inch)": "3/4 x 7/8", "Length (MM)": "236", "Weight (GMS)": "175" },
+                      { "Size (MM)": "20 x 22", "Size (Inch)": "25/32 x 7/8", "Length (MM)": "236", "Weight (GMS)": "175" },
+                      { "Size (MM)": "21 x 23", "Size (Inch)": "13/16 x 7/8", "Length (MM)": "250", "Weight (GMS)": "210" },
+                      { "Size (MM)": "22 x 24", "Size (Inch)": "7/8 x 15/16", "Length (MM)": "265", "Weight (GMS)": "235" },
+                      { "Size (MM)": "24 x 26", "Size (Inch)": "15/16 x 1", "Length (MM)": "265", "Weight (GMS)": "245" },
+                      { "Size (MM)": "25 x 28", "Size (Inch)": "1 x 1.1/8", "Length (MM)": "280", "Weight (GMS)": "315" },
+                      { "Size (MM)": "27 x 32", "Size (Inch)": "1.1/16 x 1.1/4", "Length (MM)": "300", "Weight (GMS)": "375" },
+                      { "Size (MM)": "30 x 32", "Size (Inch)": "1.3/16 x 1.1/4", "Length (MM)": "302", "Weight (GMS)": "365" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "__typename": "Product",
+                "id": 1004,
+                "title": "Double Open End Spanner (IG-1004)",
+                "description": "Drop forged double open end spanners.",
+                "type": "hand tools",
+                "brand": "Soldier Hand Tools",
+                "category": "Spanners",
+                "price": null,
+                "stock": null,
+                "new": null,
+          "featured":true,
+
+                "sale": null,
+                "discount": null,
+                "variants": [
+                  {
+                    "__typename": "Variants",
+                    "id": "IG-1004-MM",
+                    "sku": "IG-1004-MM",
+                    "size": "Metric Sizes",
+                    "color": "Silver",
+                    "image_id": 1004
+                  }
+                ],
+                "images": [
+                  {
+                    "__typename": "Images",
+                    "image_id": 1004,
+                    "id": "IG-1004-MM",
+                    "alt": "Double Open End Spanner IG-1004",
+                    "src": "/assets/images/tools/double_open_end_spanner_sx1004.jpg"
+                  }
+                ],
+                "table": [
+                  {
+                    "column": [
+                      { "field": "Size (MM)", "width": 200 },
+                      { "field": "Length (MM)", "width": 200 },
+                      { "field": "Weight (GMS)", "width": 200 }
+                    ],
+                    "rows": [
+                      { "Size (MM)": "6 x 7", "Length (MM)": "88", "Weight (GMS)": "15" },
+                      { "Size (MM)": "8 x 9", "Length (MM)": "100", "Weight (GMS)": "25" },
+                      { "Size (MM)": "8 x 10", "Length (MM)": "100", "Weight (GMS)": "25" },
+                      { "Size (MM)": "10 x 12", "Length (MM)": "109", "Weight (GMS)": "35" },
+                      { "Size (MM)": "12 x 13", "Length (MM)": "126", "Weight (GMS)": "45" },
+                      { "Size (MM)": "12 x 14", "Length (MM)": "126", "Weight (GMS)": "45" },
+                      { "Size (MM)": "14 x 17", "Length (MM)": "159", "Weight (GMS)": "83" },
+                      { "Size (MM)": "17 x 19", "Length (MM)": "180", "Weight (GMS)": "125" },
+                      { "Size (MM)": "21 x 23", "Length (MM)": "198", "Weight (GMS)": "155" }
+                    ]
+                  },
+                  {
+                    "column": [
+                      { "field": "Code", "width": 200 },
+                      { "field": "Set Sizes (MM)", "width": 200 },
+                      { "field": "Weight (GMS)", "width": 200 }
+                    ],
+                    "rows": [
+                      { "Code": "50 M", "Set Sizes (MM)": "8x9, 10x12, 12x14, 14x17, 17x19, 21x23", "Weight (GMS)": "638" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "__typename": "Product",
+                "id": 1005,
+                "title": "Double Open End Spanner (IG-1005)",
+                "description": "DIN-3110 standard, recessed panel, head set at 15° angle, carbon steel, duly hardened and tempered, nickel chrome plated.",
+                "type": "hand tools",
+                "brand": "Soldier Hand Tools",
+                "category": "Spanners",
+                "price": null,
+                "stock": null,
+                "new": null,
+                "sale": null,
+                "discount": null,
+                "variants": [
+                  {
+                    "__typename": "Variants",
+                    "id": "IG-1005-MM",
+                    "sku": "IG-1005-MM",
+                    "size": "Metric Sizes",
+                    "color": "Silver",
+                    "image_id": 1005
+                  }
+                ],
+                "images": [
+                  {
+                    "__typename": "Images",
+                    "image_id": 1005,
+                    "id": "IG-1005-MM",
+                    "alt": "Double Open End Spanner Metric Sizes",
+                    "src": "/assets/images/tools/double_open_end_spanner_metric.jpg"
+                  }
+                ],
+                "table": [
+                  {
+                    "column": [
+                      { "field": "Size (MM)", "width": 200 },
+                      { "field": "Length (MM)", "width": 200 },
+                      { "field": "Weight (GMS)", "width": 200 }
+                    ],
+                    "rows": [
+                      { "Size (MM)": "6 x 7", "Length (MM)": "100", "Weight (GMS)": "20" },
+                      { "Size (MM)": "8 x 9", "Length (MM)": "110", "Weight (GMS)": "25" },
+                      { "Size (MM)": "10 x 11", "Length (MM)": "120", "Weight (GMS)": "30" },
+                      { "Size (MM)": "12 x 13", "Length (MM)": "130", "Weight (GMS)": "35" },
+                      { "Size (MM)": "14 x 15", "Length (MM)": "140", "Weight (GMS)": "40" },
+                      { "Size (MM)": "16 x 17", "Length (MM)": "150", "Weight (GMS)": "45" },
+                      { "Size (MM)": "18 x 19", "Length (MM)": "160", "Weight (GMS)": "50" },
+                      { "Size (MM)": "20 x 22", "Length (MM)": "170", "Weight (GMS)": "55" },
+                      { "Size (MM)": "21 x 23", "Length (MM)": "180", "Weight (GMS)": "60" },
+                      { "Size (MM)": "24 x 27", "Length (MM)": "190", "Weight (GMS)": "65" },
+                      { "Size (MM)": "25 x 28", "Length (MM)": "200", "Weight (GMS)": "70" },
+                      { "Size (MM)": "30 x 32", "Length (MM)": "210", "Weight (GMS)": "75" }
+                    ]
+                  }
+                ]
+              },
+        {
+          "__typename": "Product",
+          "id": 2001,
+          "title": "Combinations Spanners (IG-2001)",
           "description": "DIN-3113 standard, recessed panel, ring 15° offset, chrome vanadium, fully hardened and tempered, nickel chrome plated.",
           "type": "hand tools",
           "brand": "Soldier Hand Tools",
@@ -19,14 +360,14 @@ export const itemData = {
           "images": [
             {
               "__typename": "Images",
-              "image_id": 1001,
+              "image_id": 2001,
               "id": "IG-2001-MM",
               "alt": "Combination Spanner Metric Sizes",
               "src": "/assets/images/tools/combination_spanner_metric.jpg"
             },
             {
               "__typename": "Images",
-              "image_id": 1001,
+              "image_id": 2001,
               "id": "IG-2001-SAE",
               "alt": "Combination Spanner SAE Sizes",
               "src": "/assets/images/tools/combination_spanner_sae.jpg"
@@ -102,30 +443,49 @@ export const itemData = {
         },
         {
           "__typename": "Product",
-          "id": 1003,
-          "title": "Combination Spanners (IG-1003)",
-          "description": "DIN-3110 standard, recessed panel, double open end spanner with head set at 15° angle, made from chrome vanadium, duly hardened and tempered, nickel chrome plated.",
+          "id": 2002,
+          "title": "Combination Spanners (IG-2002)",
+          "description": "DIN-3113 standard, elliptical pattern, ring 15° offset, chrome vanadium, duly hardened and tempered, nickel chrome plated.",
           "type": "hand tools",
           "brand": "Soldier Hand Tools",
           "category": "Spanners",
           "price": null,
+          "featured":true,
+
           "stock": null,
           "new": null,
           "sale": null,
           "discount": null,
-          "variants": [],
+          "variants": [
+            {
+              "__typename": "Variants",
+              "id": "IG-2002-MM",
+              "sku": "IG-2002-MM",
+              "size": "Metric Sizes",
+              "color": "Silver",
+              "image_id": 2002
+            },
+            {
+              "__typename": "Variants",
+              "id": "IG-2002-SAE",
+              "sku": "IG-2002-SAE",
+              "size": "SAE Sizes",
+              "color": "Silver",
+              "image_id": 2002
+            }
+          ],
           "images": [
             {
               "__typename": "Images",
-              "image_id": 1003,
-              "id": "IG-1003-MM",
+              "image_id": 2002,
+              "id": "IG-2002-MM",
               "alt": "Combination Spanner Metric Sizes",
               "src": "/assets/images/tools/combination_spanner_metric.jpg"
             },
             {
               "__typename": "Images",
-              "image_id": 1003,
-              "id": "IG-1003-SAE",
+              "image_id": 2002,
+              "id": "IG-2002-SAE",
               "alt": "Combination Spanner SAE Sizes",
               "src": "/assets/images/tools/combination_spanner_sae.jpg"
             }
@@ -139,82 +499,125 @@ export const itemData = {
                 { "field": "Weight (GMS)", "width": 200 }
               ],
               "rows": [
-                { "Size (MM)": "6 x 7", "Size (Inch)": "1/4 x 5/16", "Length (MM)": "122", "Weight (GMS)": "20" },
-                { "Size (MM)": "8 x 9", "Size (Inch)": "5/16 x 3/8", "Length (MM)": "140", "Weight (GMS)": "25" },
-                { "Size (MM)": "10 x 11", "Size (Inch)": "3/8 x 7/16", "Length (MM)": "157", "Weight (GMS)": "45" },
-                { "Size (MM)": "12 x 13", "Size (Inch)": "7/16 x 1/2", "Length (MM)": "172", "Weight (GMS)": "65" },
-                { "Size (MM)": "14 x 15", "Size (Inch)": "1/2 x 9/16", "Length (MM)": "190", "Weight (GMS)": "90" },
-                { "Size (MM)": "16 x 17", "Size (Inch)": "19/32 x 11/16", "Length (MM)": "205", "Weight (GMS)": "115" },
-                { "Size (MM)": "17 x 19", "Size (Inch)": "5/8 x 3/4", "Length (MM)": "222", "Weight (GMS)": "125" },
-                { "Size (MM)": "18 x 19", "Size (Inch)": "11/16 x 3/4", "Length (MM)": "222", "Weight (GMS)": "125" },
-                { "Size (MM)": "19 x 22", "Size (Inch)": "3/4 x 7/8", "Length (MM)": "236", "Weight (GMS)": "175" },
-                { "Size (MM)": "20 x 22", "Size (Inch)": "25/32 x 7/8", "Length (MM)": "236", "Weight (GMS)": "175" },
-                { "Size (MM)": "21 x 23", "Size (Inch)": "13/16 x 7/8", "Length (MM)": "250", "Weight (GMS)": "210" },
-                { "Size (MM)": "22 x 24", "Size (Inch)": "7/8 x 15/16", "Length (MM)": "265", "Weight (GMS)": "235" },
-                { "Size (MM)": "24 x 26", "Size (Inch)": "15/16 x 1", "Length (MM)": "265", "Weight (GMS)": "245" },
-                { "Size (MM)": "25 x 28", "Size (Inch)": "1 x 1.1/8", "Length (MM)": "280", "Weight (GMS)": "315" },
-                { "Size (MM)": "27 x 32", "Size (Inch)": "1.1/16 x 1.1/4", "Length (MM)": "300", "Weight (GMS)": "375" },
-                { "Size (MM)": "30 x 32", "Size (Inch)": "1.3/16 x 1.1/4", "Length (MM)": "302", "Weight (GMS)": "365" }
+                { "Size (MM)": "6", "Size (Inch)": "1/4", "Length (MM)": "100", "Weight (GMS)": "18" },
+                { "Size (MM)": "7", "Size (Inch)": "", "Length (MM)": "110", "Weight (GMS)": "22" },
+                { "Size (MM)": "8", "Size (Inch)": "5/16", "Length (MM)": "120", "Weight (GMS)": "26" },
+                { "Size (MM)": "9", "Size (Inch)": "", "Length (MM)": "130", "Weight (GMS)": "30" },
+                { "Size (MM)": "10", "Size (Inch)": "3/8", "Length (MM)": "140", "Weight (GMS)": "42" },
+                { "Size (MM)": "11", "Size (Inch)": "7/16", "Length (MM)": "150", "Weight (GMS)": "52" },
+                { "Size (MM)": "12", "Size (Inch)": "", "Length (MM)": "160", "Weight (GMS)": "60" },
+                { "Size (MM)": "13", "Size (Inch)": "1/2", "Length (MM)": "170", "Weight (GMS)": "72" },
+                { "Size (MM)": "14", "Size (Inch)": "9/16", "Length (MM)": "180", "Weight (GMS)": "86" },
+                { "Size (MM)": "15", "Size (Inch)": "", "Length (MM)": "190", "Weight (GMS)": "92" },
+                { "Size (MM)": "16", "Size (Inch)": "5/8", "Length (MM)": "200", "Weight (GMS)": "109" },
+                { "Size (MM)": "17", "Size (Inch)": "11/16", "Length (MM)": "210", "Weight (GMS)": "132" },
+                { "Size (MM)": "18", "Size (Inch)": "", "Length (MM)": "220", "Weight (GMS)": "152" },
+                { "Size (MM)": "19", "Size (Inch)": "3/4", "Length (MM)": "230", "Weight (GMS)": "160" },
+                { "Size (MM)": "20", "Size (Inch)": "", "Length (MM)": "240", "Weight (GMS)": "182" },
+                { "Size (MM)": "21", "Size (Inch)": "13/16", "Length (MM)": "250", "Weight (GMS)": "192" },
+                { "Size (MM)": "22", "Size (Inch)": "7/8", "Length (MM)": "260", "Weight (GMS)": "210" },
+                { "Size (MM)": "23", "Size (Inch)": "", "Length (MM)": "270", "Weight (GMS)": "250" },
+                { "Size (MM)": "24", "Size (Inch)": "15/16", "Length (MM)": "280", "Weight (GMS)": "260" },
+                { "Size (MM)": "25", "Size (Inch)": "1", "Length (MM)": "290", "Weight (GMS)": "300" },
+                { "Size (MM)": "26", "Size (Inch)": "", "Length (MM)": "300", "Weight (GMS)": "320" },
+                { "Size (MM)": "27", "Size (Inch)": "1.1/16", "Length (MM)": "310", "Weight (GMS)": "390" },
+                { "Size (MM)": "28", "Size (Inch)": "1.1/8", "Length (MM)": "320", "Weight (GMS)": "435" },
+                { "Size (MM)": "29", "Size (Inch)": "", "Length (MM)": "330", "Weight (GMS)": "435" },
+                { "Size (MM)": "30", "Size (Inch)": "", "Length (MM)": "340", "Weight (GMS)": "460" },
+                { "Size (MM)": "32", "Size (Inch)": "1.1/4", "Length (MM)": "360", "Weight (GMS)": "560" }
               ]
             }
           ]
         },
         {
           "__typename": "Product",
-          "id": 1005,
-          "title": "Double Open End Spanner (IG-1005)",
-          "description": "DIN-3110 standard, recessed panel, head set at 15° angle, carbon steel, duly hardened and tempered, nickel chrome plated.",
+          "id": 2003,
+          "title": "Combination Spanners (IG-2003)",
+          "description": "DIN-3113 standard, Raised panel, ring 15° offset, chrome vanadium, duly hardened and tempered, nickel chrome plated.",
           "type": "hand tools",
           "brand": "Soldier Hand Tools",
           "category": "Spanners",
           "price": null,
           "stock": null,
+          "featured":true,
+
           "new": null,
           "sale": null,
           "discount": null,
           "variants": [
             {
               "__typename": "Variants",
-              "id": "IG-1005-MM",
-              "sku": "IG-1005-MM",
+              "id": "IG-2003-MM",
+              "sku": "IG-2003-MM",
               "size": "Metric Sizes",
               "color": "Silver",
-              "image_id": 1005
+              "image_id": 2003
+            },
+            {
+              "__typename": "Variants",
+              "id": "IG-2003-SAE",
+              "sku": "IG-2003-SAE",
+              "size": "SAE Sizes",
+              "color": "Silver",
+              "image_id": 2003
             }
           ],
           "images": [
             {
               "__typename": "Images",
-              "image_id": 1005,
-              "id": "IG-1005-MM",
-              "alt": "Double Open End Spanner Metric Sizes",
-              "src": "/assets/images/tools/double_open_end_spanner_metric.jpg"
+              "image_id": 2003,
+              "id": "IG-2003-MM",
+              "alt": "Combination Spanner Metric Sizes",
+              "src": "/assets/images/tools/combination_spanner_metric.jpg"
+            },
+            {
+              "__typename": "Images",
+              "image_id": 2003,
+              "id": "IG-2003-SAE",
+              "alt": "Combination Spanner SAE Sizes",
+              "src": "/assets/images/tools/combination_spanner_sae.jpg"
             }
           ],
           "table": [
             {
               "column": [
                 { "field": "Size (MM)", "width": 200 },
+                { "field": "Size (Inch)", "width": 200 },
                 { "field": "Length (MM)", "width": 200 },
                 { "field": "Weight (GMS)", "width": 200 }
               ],
               "rows": [
-                { "Size (MM)": "6 x 7", "Length (MM)": "100", "Weight (GMS)": "20" },
-                { "Size (MM)": "8 x 9", "Length (MM)": "110", "Weight (GMS)": "25" },
-                { "Size (MM)": "10 x 11", "Length (MM)": "120", "Weight (GMS)": "30" },
-                { "Size (MM)": "12 x 13", "Length (MM)": "130", "Weight (GMS)": "35" },
-                { "Size (MM)": "14 x 15", "Length (MM)": "140", "Weight (GMS)": "40" },
-                { "Size (MM)": "16 x 17", "Length (MM)": "150", "Weight (GMS)": "45" },
-                { "Size (MM)": "18 x 19", "Length (MM)": "160", "Weight (GMS)": "50" },
-                { "Size (MM)": "20 x 22", "Length (MM)": "170", "Weight (GMS)": "55" },
-                { "Size (MM)": "21 x 23", "Length (MM)": "180", "Weight (GMS)": "60" },
-                { "Size (MM)": "24 x 27", "Length (MM)": "190", "Weight (GMS)": "65" },
-                { "Size (MM)": "25 x 28", "Length (MM)": "200", "Weight (GMS)": "70" },
-                { "Size (MM)": "30 x 32", "Length (MM)": "210", "Weight (GMS)": "75" }
+                { "Size (MM)": "6", "Size (Inch)": "1/4", "Length (MM)": "100", "Weight (GMS)": "16" },
+                { "Size (MM)": "7", "Size (Inch)": "", "Length (MM)": "110", "Weight (GMS)": "20" },
+                { "Size (MM)": "8", "Size (Inch)": "5/16", "Length (MM)": "120", "Weight (GMS)": "28" },
+                { "Size (MM)": "9", "Size (Inch)": "", "Length (MM)": "130", "Weight (GMS)": "30" },
+                { "Size (MM)": "10", "Size (Inch)": "3/8", "Length (MM)": "140", "Weight (GMS)": "40" },
+                { "Size (MM)": "11", "Size (Inch)": "7/16", "Length (MM)": "150", "Weight (GMS)": "43" },
+                { "Size (MM)": "12", "Size (Inch)": "", "Length (MM)": "160", "Weight (GMS)": "54" },
+                { "Size (MM)": "13", "Size (Inch)": "1/2", "Length (MM)": "170", "Weight (GMS)": "65" },
+                { "Size (MM)": "14", "Size (Inch)": "9/16", "Length (MM)": "180", "Weight (GMS)": "80" },
+                { "Size (MM)": "15", "Size (Inch)": "", "Length (MM)": "190", "Weight (GMS)": "90" },
+                { "Size (MM)": "16", "Size (Inch)": "5/8", "Length (MM)": "200", "Weight (GMS)": "100" },
+                { "Size (MM)": "17", "Size (Inch)": "11/16", "Length (MM)": "210", "Weight (GMS)": "135" },
+                { "Size (MM)": "18", "Size (Inch)": "", "Length (MM)": "220", "Weight (GMS)": "150" },
+                { "Size (MM)": "19", "Size (Inch)": "3/4", "Length (MM)": "230", "Weight (GMS)": "160" },
+                { "Size (MM)": "20", "Size (Inch)": "", "Length (MM)": "240", "Weight (GMS)": "170" },
+                { "Size (MM)": "21", "Size (Inch)": "13/16", "Length (MM)": "250", "Weight (GMS)": "190" },
+                { "Size (MM)": "22", "Size (Inch)": "7/8", "Length (MM)": "260", "Weight (GMS)": "215" },
+                { "Size (MM)": "23", "Size (Inch)": "", "Length (MM)": "270", "Weight (GMS)": "225" },
+                { "Size (MM)": "24", "Size (Inch)": "15/16", "Length (MM)": "280", "Weight (GMS)": "260" },
+                { "Size (MM)": "25", "Size (Inch)": "1", "Length (MM)": "290", "Weight (GMS)": "270" },
+                { "Size (MM)": "26", "Size (Inch)": "", "Length (MM)": "300", "Weight (GMS)": "300" },
+                { "Size (MM)": "27", "Size (Inch)": "1.1/16", "Length (MM)": "310", "Weight (GMS)": "350" },
+                { "Size (MM)": "28", "Size (Inch)": "1.1/8", "Length (MM)": "320", "Weight (GMS)": "400" },
+                { "Size (MM)": "30", "Size (Inch)": "", "Length (MM)": "340", "Weight (GMS)": "525" },
+                { "Size (MM)": "32", "Size (Inch)": "1.1/4", "Length (MM)": "360", "Weight (GMS)": "620" }
               ]
             }
           ]
         },
+   
+        
         {
           "__typename": "Product",
           "id": 3001,
@@ -355,6 +758,87 @@ export const itemData = {
             }
           ]
         },
+        {
+          "__typename": "Product",
+          "id": 3003,
+          "title": "Bi-Hexagon Ring Spanner (IG-3003)",
+          "description": "DIN-838 standard, recessed panel, deep offset, chrome vanadium, duly hardened and tempered, nickel chrome plated.",
+          "type": "hand tools",
+          "brand": "Soldier Hand Tools",
+          "category": "Spanners",
+          "price": null,
+          "stock": null,
+          "new": null,
+          "sale": null,
+          "discount": null,
+          "variants": [
+            {
+              "__typename": "Variants",
+              "id": "IG-3003-MM",
+              "sku": "IG-3003-MM",
+              "size": "Metric Sizes",
+              "color": "Silver",
+              "image_id": 3003
+            },
+            {
+              "__typename": "Variants",
+              "id": "IG-3003-SAE",
+              "sku": "IG-3003-SAE",
+              "size": "SAE Sizes",
+              "color": "Silver",
+              "image_id": 3003
+            }
+          ],
+          "images": [
+            {
+              "__typename": "Images",
+              "image_id": 3003,
+              "id": "IG-3003-MM",
+              "alt": "Bi-Hexagon Ring Spanner Metric Sizes",
+              "src": "/assets/images/tools/bi_hexagon_ring_spanner_metric.jpg"
+            },
+            {
+              "__typename": "Images",
+              "image_id": 3003,
+              "id": "IG-3003-SAE",
+              "alt": "Bi-Hexagon Ring Spanner SAE Sizes",
+              "src": "/assets/images/tools/bi_hexagon_ring_spanner_sae.jpg"
+            }
+          ],
+          "table": [
+            {
+              "column": [
+                { "field": "Size (MM)", "width": 200 },
+                { "field": "Size (Inch)", "width": 200 },
+                { "field": "Length (MM)", "width": 200 },
+                { "field": "Weight (GMS)", "width": 200 }
+              ],
+              "rows": [
+                { "Size (MM)": "6 x 7", "Size (Inch)": "1/4 x 5/16", "Length (MM)": "170", "Weight (GMS)": "54" },
+                { "Size (MM)": "8 x 9", "Size (Inch)": "5/16 x 3/8", "Length (MM)": "182", "Weight (GMS)": "65" },
+                { "Size (MM)": "8 x 10", "Size (Inch)": "", "Length (MM)": "185", "Weight (GMS)": "72" },
+                { "Size (MM)": "10 x 11", "Size (Inch)": "3/8 x 7/16", "Length (MM)": "195", "Weight (GMS)": "84" },
+                { "Size (MM)": "10 x 13", "Size (Inch)": "", "Length (MM)": "200", "Weight (GMS)": "95" },
+                { "Size (MM)": "12 x 13", "Size (Inch)": "", "Length (MM)": "212", "Weight (GMS)": "117" },
+                { "Size (MM)": "13 x 17", "Size (Inch)": "", "Length (MM)": "220", "Weight (GMS)": "125" },
+                { "Size (MM)": "14 x 15", "Size (Inch)": "1/2 x 9/16", "Length (MM)": "226", "Weight (GMS)": "147" },
+                { "Size (MM)": "16 x 17", "Size (Inch)": "5/8 x 11/16", "Length (MM)": "242", "Weight (GMS)": "175" },
+                { "Size (MM)": "17 x 19", "Size (Inch)": "", "Length (MM)": "250", "Weight (GMS)": "185" },
+                { "Size (MM)": "18 x 19", "Size (Inch)": "3/4 x 25/32", "Length (MM)": "261", "Weight (GMS)": "210" },
+                { "Size (MM)": "19 x 22", "Size (Inch)": "3/4 x 7/8", "Length (MM)": "275", "Weight (GMS)": "270" },
+                { "Size (MM)": "20 x 22", "Size (Inch)": "13/16 x 7/8", "Length (MM)": "296", "Weight (GMS)": "300" },
+                { "Size (MM)": "21 x 23", "Size (Inch)": "", "Length (MM)": "315", "Weight (GMS)": "352" },
+                { "Size (MM)": "24 x 26", "Size (Inch)": "15/16 x 1", "Length (MM)": "325", "Weight (GMS)": "405" },
+                { "Size (MM)": "24 x 27", "Size (Inch)": "", "Length (MM)": "325", "Weight (GMS)": "405" },
+                { "Size (MM)": "25 x 28", "Size (Inch)": "1 x 1-1/8", "Length (MM)": "335", "Weight (GMS)": "485" },
+                { "Size (MM)": "27 x 32", "Size (Inch)": "1-1/16 x 1-1/4", "Length (MM)": "365", "Weight (GMS)": "630" },
+                { "Size (MM)": "30 x 32", "Size (Inch)": "", "Length (MM)": "365", "Weight (GMS)": "620" }
+              ]
+            }
+          ]
+        },
+       
+        
         {
           "__typename": "Product",
           "id": 3004,
@@ -509,6 +993,92 @@ export const itemData = {
             }
           ]
         },
+        {
+          "__typename": "Product",
+          "id": 4002,
+          "title": "Gas Spanner (IG-4002)",
+          "description": "DIN 895 standard, drop-forged, carbon steel, duly hardened and tempered.",
+          "type": "hand tools",
+          "brand": "Soldier Hand Tools",
+          "category": "Spanners",
+          "price": null,
+          "stock": null,
+          "new": null,
+          "sale": null,
+          "discount": null,
+          "variants": [],
+          "images": [
+            {
+              "image_id": "IG-4002",
+              "alt": "Gas Spanner IG-4002",
+              "image_id": 4002,
+              "src": "/assets/images/tools/gas_spanner.jpg"
+            }
+          ],
+          "table": [
+            {
+              "column": [
+                { "field": "Size (MM)", "width": 200 },
+                { "field": "Size (Inch)", "width": 200 }
+              ],
+              "rows": [
+                { "Size (MM)": "25", "Size (Inch)": "1" },
+                { "Size (MM)": "22", "Size (Inch)": "7/8" }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "Product",
+          "id": 4003,
+          "title": "T-Socket Spanner (IG-4003)",
+          "description": "DIN-3110 standard, drop-forged, special carbon steel.",
+          "type": "hand tools",
+          "brand": "Soldier Hand Tools",
+          "category": "Spanners",
+          "price": null,
+          "stock": null,
+          "new": null,
+          "sale": null,
+          "discount": null,
+          "variants": [],
+          "images": [
+            {
+              "image_id": 4003,
+
+              "alt": "T-Socket Spanner IG-4003",
+              "src": "/assets/images/tools/t_socket_spanner.jpg"
+            }
+          ],
+          "table": [
+            {
+              "column": [
+                { "field": "Socket Size (MM)", "width": 200 },
+                { "field": "Socket Size (SAE)", "width": 200 },
+                { "field": "Length (Inches)", "width": 200 },
+                { "field": "Deluxe Length (Inches)", "width": 200 },
+                { "field": "Economical Length (Inches)", "width": 200 }
+              ],
+              "rows": [
+                { "Socket Size (MM)": "6", "Socket Size (SAE)": "1/4", "Length (Inches)": "10", "Deluxe Length (Inches)": "8", "Economical Length (Inches)": "8" },
+                { "Socket Size (MM)": "7", "Socket Size (SAE)": "", "Length (Inches)": "10", "Deluxe Length (Inches)": "8", "Economical Length (Inches)": "8" },
+                { "Socket Size (MM)": "8", "Socket Size (SAE)": "5/16", "Length (Inches)": "10", "Deluxe Length (Inches)": "8", "Economical Length (Inches)": "8" },
+                { "Socket Size (MM)": "9", "Socket Size (SAE)": "3/8", "Length (Inches)": "10", "Deluxe Length (Inches)": "8", "Economical Length (Inches)": "8" },
+                { "Socket Size (MM)": "10", "Socket Size (SAE)": "7/16", "Length (Inches)": "10", "Deluxe Length (Inches)": "8", "Economical Length (Inches)": "8" },
+                { "Socket Size (MM)": "11", "Socket Size (SAE)": "1/2", "Length (Inches)": "10", "Deluxe Length (Inches)": "8", "Economical Length (Inches)": "8" },
+                { "Socket Size (MM)": "12", "Socket Size (SAE)": "9/16", "Length (Inches)": "10", "Deluxe Length (Inches)": "-", "Economical Length (Inches)": "-" },
+                { "Socket Size (MM)": "13", "Socket Size (SAE)": "1/2", "Length (Inches)": "10", "Deluxe Length (Inches)": "-", "Economical Length (Inches)": "-" },
+                { "Socket Size (MM)": "14", "Socket Size (SAE)": "9/16", "Length (Inches)": "10", "Deluxe Length (Inches)": "-", "Economical Length (Inches)": "-" },
+                { "Socket Size (MM)": "15", "Socket Size (SAE)": "5/8", "Length (Inches)": "10", "Deluxe Length (Inches)": "-", "Economical Length (Inches)": "-" },
+                { "Socket Size (MM)": "16", "Socket Size (SAE)": "5/8", "Length (Inches)": "10", "Deluxe Length (Inches)": "-", "Economical Length (Inches)": "-" },
+                { "Socket Size (MM)": "17", "Socket Size (SAE)": "11/16", "Length (Inches)": "10", "Deluxe Length (Inches)": "-", "Economical Length (Inches)": "-" },
+                { "Socket Size (MM)": "18", "Socket Size (SAE)": "3/4", "Length (Inches)": "10", "Deluxe Length (Inches)": "-", "Economical Length (Inches)": "-" },
+                { "Socket Size (MM)": "19", "Socket Size (SAE)": "3/4", "Length (Inches)": "10", "Deluxe Length (Inches)": "-", "Economical Length (Inches)": "-" }
+              ]
+            }
+          ]
+        },
+        
         {
           "__typename": "Product",
           "id": 4004,
@@ -1142,6 +1712,8 @@ export const itemData = {
           "title": "Claw Hammer (IG-4800)",
           "description": "Designed for professional use, this claw hammer features a drop-forged, selected carbon steel head, hardened and tempered for durability. It comes with a steel shaft and an impact-absorbing, non-slip rubber grip for enhanced comfort and control.",
           "type": "hand tools",
+          "featured":true,
+
           "brand": "Soldier Hand Tools",
           "category": "Striking Tools",
           "price": null,
@@ -1182,6 +1754,204 @@ export const itemData = {
             }
           ]
         },
+        {
+          "__typename": "Product",
+          "id": 1091,
+          "title": "Machinist Hammer (IG-1091)",
+          "description": "Machinist hammer",
+          "type": "hand tools",
+          "brand": "Soldier Hand Tools",
+          "category": "Striking Tools",
+          "price": null,
+          "stock": null,
+          "new": null,
+          "sale": null,
+          "discount": null,
+          "variants": [
+            {
+              "__typename": "Variants",
+              "id": "IG-4800-225",
+              "sku": "IG-4800-225",
+              "size": "225 grams (8 ounces)",
+              "color": "Silver",
+              "image_id": 1091
+            },
+         
+          ],
+          "images": [
+            {
+              "__typename": "Images",
+              "image_id": 1091,
+              "id": "IG-4800",
+              "alt": "Claw Hammer IG-4800",
+              "src": "/assets/images/tools/claw_hammer.jpg"
+            }
+          ],
+          "table": [
+            {
+              "column": [
+                { "field": "size", "width": 200 },
+                { "field": "PCS. Per Master Cartoon", "width": 400 }
+              ],
+              "rows": [
+                { "size": "1/2 LB.", "PCS. Per Master Cartoon": "200" },
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "Product",
+          "id": 1093,
+          "title": "Ball Pein Hammer With Wooden handle (IG-1093)",
+          "description": "Ball Pein Hammer With Wooden handle",
+          "type": "hand tools",
+          "brand": "Soldier Hand Tools",
+          "category": "Striking Tools",
+          "price": null,
+          "stock": null,
+          "new": null,
+          "sale": null,
+          "discount": null,
+          "variants": [
+            {
+              "__typename": "Variants",
+              "id": "IG-4800-225",
+              "sku": "IG-4800-225",
+              "size": "225 grams (8 ounces)",
+              "color": "Silver",
+              "image_id": 1093
+            },
+         
+          ],
+          "images": [
+            {
+              "__typename": "Images",
+              "image_id": 1093,
+              "id": "IG-4800",
+              "alt": "Claw Hammer IG-4800",
+              "src": "/assets/images/tools/claw_hammer.jpg"
+            }
+          ],
+          "table": [
+            {
+              "column": [
+                { "field": "LBS. (SIZE)", "width": 200 },
+                { "field": "PCS. Per Master Cartoon", "width": 400 },
+                { "field": "MM", "width": 400 }
+              ],
+              "rows": [
+                { "LBS. (SIZE)": "1/4","MM":"100", "PCS. Per Master Cartoon": "120" ,},
+                { "LBS. (SIZE)": "1/2","MM":"200", "PCS. Per Master Cartoon": "72" },
+                { "LBS. (SIZE)": "3/4","MM":"300", "PCS. Per Master Cartoon": "48" },
+                { "LBS. (SIZE)": "1","MM":"500", "PCS. Per Master Cartoon": "36" },
+                { "LBS. (SIZE)": "1.5", "MM":"600","PCS. Per Master Cartoon": "24" },
+                { "LBS. (SIZE)": "1.5","MM":"800", "PCS. Per Master Cartoon": "24" },
+                { "LBS. (SIZE)": "2","MM":"900", "PCS. Per Master Cartoon": "16" },
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "Product",
+          "id": 1094,
+          "title": "Cross Pein Hammer With Wooden Handle (IG-1094)",
+          "description": "Cross Pein Hammer With Wooden Handle",
+          "type": "hand tools",
+          "brand": "Soldier Hand Tools",
+          "category": "Striking Tools",
+          "price": null,
+          "stock": null,
+          "new": null,
+          "sale": null,
+          "discount": null,
+          "variants": [
+            {
+              "__typename": "Variants",
+              "id": "IG-4800-225",
+              "sku": "IG-4800-225",
+              "size": "225 grams (8 ounces)",
+              "color": "Silver",
+              "image_id": 1094
+            },
+         
+          ],
+          "images": [
+            {
+              "__typename": "Images",
+              "image_id": 1094,
+              "id": "IG-4800",
+              "alt": "Claw Hammer IG-4800",
+              "src": "/assets/images/tools/claw_hammer.jpg"
+            }
+          ],
+          "table": [
+            {
+              "column": [
+                { "field": "LBS. (SIZE)", "width": 200 },
+                { "field": "PCS. Per Master Cartoon", "width": 400 },
+                { "field": "MM", "width": 400 }
+              ],
+              "rows": [
+                { "LBS. (SIZE)": "1/4","MM":"100", "PCS. Per Master Cartoon": "120" ,},
+                { "LBS. (SIZE)": "1/2","MM":"200", "PCS. Per Master Cartoon": "72" },
+                { "LBS. (SIZE)": "3/4","MM":"300", "PCS. Per Master Cartoon": "48" },
+                { "LBS. (SIZE)": "1","MM":"500", "PCS. Per Master Cartoon": "36" },
+                { "LBS. (SIZE)": "1.5", "MM":"600","PCS. Per Master Cartoon": "24" },
+                { "LBS. (SIZE)": "1.5","MM":"800", "PCS. Per Master Cartoon": "24" },
+                { "LBS. (SIZE)": "2","MM":"900", "PCS. Per Master Cartoon": "16" },
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "Product",
+          "id": 1107,
+          "title": "Cross Pein Hammer With Wooden Handle (IG-1107)",
+          "description": "Cross Pein Hammer With Wooden Handle",
+          "type": "hand tools",
+          "brand": "Soldier Hand Tools",
+          "category": "Striking Tools",
+          "price": null,
+          "stock": null,
+          "new": null,
+          "sale": null,
+          "discount": null,
+          "variants": [
+            {
+              "__typename": "Variants",
+              "id": "IG-4800-225",
+              "sku": "IG-4800-225",
+              "size": "225 grams (8 ounces)",
+              "color": "Silver",
+              "image_id": 1107
+            },
+         
+          ],
+          "images": [
+            {
+              "__typename": "Images",
+              "image_id": 1107,
+              "id": "IG-4800",
+              "alt": "Claw Hammer IG-4800",
+              "src": "/assets/images/tools/claw_hammer.jpg"
+            }
+          ],
+          "table": [
+            {
+              "column": [
+                { "field": "LBS. (SIZE)", "width": 200 },
+                { "field": "PCS. Per Master Cartoon", "width": 400 },
+                { "field": "MM", "width": 400 }
+              ],
+              "rows": [
+                { "(SIZE OZ.)": "22","PCS. Per Master Cartoon": "36" ,},
+         
+              ]
+            }
+          ]
+        },
+   
+        
         {
           "__typename": "Product",
           "id": 4810,
@@ -4490,8 +5260,624 @@ export const itemData = {
       ]
     }
   ]
-}
+},
+{
+  "__typename": "Product",
+  "id": 570,
+  "title": "Flower Cutter",
+  "description": "Drop forged from carbon steel with die-cast handle and carbon steel blades. Hardened and tempered for durability.",
+  "type": "garden tools",
+  "brand": "Varindera Tools",
+  "category": "Garden Tools",
+  "price": null,
+  "stock": null,
+  "new": null,
+  "sale": null,
+  "discount": null,
+  "variants": [],
+  "images": [
+    {
+      "image_id": "570",
+      "alt": "Flower Cutter Garden Tool",
+      "src": "/assets/images/tools/flower_cutter.jpg"
+    }
+  ],
+  "table": [
+    {
+      "column": [
+        { "field": "Size (Inches)", "width": 200 },
+        { "field": "Size (mm)", "width": 200 },
+        { "field": "Quantity per Carton (Pcs.)", "width": 200 },
+        { "field": "Volume per Carton (Cu.M.)", "width": 200 }
+      ],
+      "rows": [
+        { "Size (Inches)": "8", "Size (mm)": "200", "Quantity per Carton (Pcs.)": "100", "Volume per Carton (Cu.M.)": "0.032" }
+      ]
+    }
+  ]
+},
+{
+  "__typename": "Product",
+  "id": 571,
+  "title": "Pruning Shear",
+  "description": "Drop forged from carbon steel with die-cast handle and carbon steel blades. Hardened and tempered for durability.",
+  "type": "garden tools",
+  "brand": "Varindera Tools",
+  "category": "Garden Tools",
+  "price": null,
+  "stock": null,
+  "new": null,
+  "sale": null,
+  "discount": null,
+  "variants": [],
+  "images": [
+    {
+      "image_id": "571",
+      "alt": "Pruning Shear Garden Tool",
+      "src": "/assets/images/tools/pruning_shear.jpg"
+    }
+  ],
+  "table": [
+    {
+      "column": [
+        { "field": "Size (Inches)", "width": 200 },
+        { "field": "Size (mm)", "width": 200 },
+        { "field": "Quantity per Carton (Pcs.)", "width": 200 },
+        { "field": "Volume per Carton (Cu.M.)", "width": 200 }
+      ],
+      "rows": [
+        { "Size (Inches)": "8", "Size (mm)": "200", "Quantity per Carton (Pcs.)": "100", "Volume per Carton (Cu.M.)": "0.032" }
+      ]
+    }
+  ]
+},
+{
+  "__typename": "Product",
+  "id": 572,
+  "title": "Leaf Rake",
+  "description": "Drop forged from carbon steel with die-cast handle and carbon steel blades. Flexible with centre support.",
+  "type": "garden tools",
+  "brand": "Varindera Tools",
+  "category": "Garden Tools",
+  "price": null,
+  "stock": null,
+  "new": null,
+  "sale": null,
+  "discount": null,
+  "variants": [
   
+  ],
+  "images": [
+    {
+      "image_id": "572",
+      "alt": "Leaf Rake Garden Tool",
+      "src": "/assets/images/tools/leaf_rake.jpg"
+    }
+  ],
+  "table": [
+    {
+      "column": [
+        { "field": "Size (Inches)", "width": 200 },
+        { "field": "Quantity per Carton (Pcs.)", "width": 200 },
+        { "field": "Volume per Carton (Cu.M.)", "width": 200 }
+      ],
+      "rows": [
+        { "Size (Inches)": "16", "Quantity per Carton (Pcs.)": "18", "Volume per Carton (Cu.M.)": "0.050" },
+        { "Size (Inches)": "22", "Quantity per Carton (Pcs.)": "18", "Volume per Carton (Cu.M.)": "0.055" }
+      ]
+    }
+  ]
+},
+{
+  "__typename": "Product",
+  "id": 574,
+  "title": "Garden Rake",
+  "description": "Made from carbon steel sheet, hardened and tempered for durability. Available with or without handle. Available in 14, 16, and 18 teeth configurations.",
+  "type": "garden tools",
+  "brand": "Varindera Tools",
+  "category": "Garden Tools",
+  "price": null,
+  "stock": null,
+  "new": null,
+  "sale": null,
+  "discount": null,
+  "variants": [
+   
+  ],
+  "images": [
+    {
+      "image_id": "574",
+      "alt": "Garden Rake",
+      "src": "/assets/images/tools/garden_rake.jpg"
+    }
+  ],
+  "table": [
+    {
+      "column": [
+        { "field": "Teeth", "width": 200 },
+        { "field": "Quantity per Carton (Pcs.)", "width": 200 },
+        { "field": "Volume per Carton (Cu.M.)", "width": 200 }
+      ],
+      "rows": [
+        { "Teeth": "14", "Quantity per Carton (Pcs.)": "24", "Volume per Carton (Cu.M.)": "0.050" },
+        { "Teeth": "16", "Quantity per Carton (Pcs.)": "24", "Volume per Carton (Cu.M.)": "0.050" },
+        { "Teeth": "18", "Quantity per Carton (Pcs.)": "24", "Volume per Carton (Cu.M.)": "0.050" }
+      ]
+    }
+  ]
+},
+{
+  "__typename": "Product",
+  "id": 575,
+  "title": "Garden Rake (Twisted)",
+  "description": "Made from carbon steel sheet. Teeth are double-banded with double color. Hardened and tempered for durability.",
+  "type": "garden tools",
+  "brand": "Varindera Tools",
+  "category": "Garden Tools",
+  "price": null,
+  "stock": null,
+  "new": null,
+  "sale": null,
+  "discount": null,
+  "variants": [
+   
+  ],
+  "images": [
+    {
+      "image_id": "575",
+      "alt": "Garden Rake (Twisted)",
+      "src": "/assets/images/tools/garden_rake_twisted.jpg"
+    }
+  ],
+  "table": [
+    {
+      "column": [
+        { "field": "Teeth", "width": 200 },
+        { "field": "Quantity per Carton (Pcs.)", "width": 200 },
+        { "field": "Volume per Carton (Cu.M.)", "width": 200 }
+      ],
+      "rows": [
+        { "Teeth": "14", "Quantity per Carton (Pcs.)": "24", "Volume per Carton (Cu.M.)": "0.050" },
+        { "Teeth": "16", "Quantity per Carton (Pcs.)": "24", "Volume per Carton (Cu.M.)": "0.050" },
+        { "Teeth": "18", "Quantity per Carton (Pcs.)": "24", "Volume per Carton (Cu.M.)": "0.050" }
+      ]
+    }
+  ]
+},
+{
+  "__typename": "Product",
+  "id": 576,
+  "title": "Border Spade",
+  "description": "Made from carbon steel. Features a plastic-coated steel-cored shaft with handle for a firm grip. Hardened and tempered for durability.",
+  "type": "garden tools",
+  "brand": "Varindera Tools",
+  "category": "Garden Tools",
+  "price": null,
+  "stock": null,
+  "new": null,
+  "sale": null,
+  "discount": null,
+  "variants": [
+    {
+      "size": "Standard",
+      "quantity_per_carton": 100,
+      "volume_per_carton": "0.032 cu.m"
+    }
+  ],
+  "images": [
+    {
+      "image_id": "576",
+      "alt": "Border Spade",
+      "src": "/assets/images/tools/border_spade.jpg"
+    }
+  ],
+  "table": [
+    {
+      "column": [
+        { "field": "Size", "width": 200 },
+        { "field": "Quantity per Carton (Pcs.)", "width": 200 },
+        { "field": "Volume per Carton (Cu.M.)", "width": 200 }
+      ],
+      "rows": [
+        { "Size": "Standard", "Quantity per Carton (Pcs.)": "100", "Volume per Carton (Cu.M.)": "0.032" }
+      ]
+    }
+  ]
+},
+{
+  "__typename": "Product",
+  "id": 577,
+  "title": "Border Fork",
+  "description": "Made from carbon steel. Features a plastic-coated steel-cored shaft with handle for a firm grip. Hardened and tempered for durability.",
+  "type": "garden tools",
+  "brand": "Varindera Tools",
+  "category": "Garden Tools",
+  "price": null,
+  "stock": null,
+  "new": null,
+  "sale": null,
+  "discount": null,
+  "variants": [
+    
+  ],
+  "images": [
+    {
+      "image_id": "577",
+      "alt": "Border Fork",
+      "src": "/assets/images/tools/border_fork.jpg"
+    }
+  ],
+  "table": [
+    {
+      "column": [
+        { "field": "Size (mm)", "width": 200 },
+        { "field": "Quantity per Carton (Pcs.)", "width": 200 },
+        { "field": "Net Weight per Carton (Kg.)", "width": 200 }
+      ],
+      "rows": [
+        { "Size (mm)": "80", "Quantity per Carton (Pcs.)": "2", "Net Weight per Carton (Kg.)": "7.0" },
+        { "Size (mm)": "100", "Quantity per Carton (Pcs.)": "1", "Net Weight per Carton (Kg.)": "11.5" },
+        { "Size (mm)": "125", "Quantity per Carton (Pcs.)": "1", "Net Weight per Carton (Kg.)": "20.0" },
+        { "Size (mm)": "150", "Quantity per Carton (Pcs.)": "1", "Net Weight per Carton (Kg.)": "24.0" },
+        { "Size (mm)": "200", "Quantity per Carton (Pcs.)": "1", "Net Weight per Carton (Kg.)": "33.5" },
+        { "Size (mm)": "250", "Quantity per Carton (Pcs.)": "1", "Net Weight per Carton (Kg.)": "58.0" },
+        { "Size (mm)": "300", "Quantity per Carton (Pcs.)": "1", "Net Weight per Carton (Kg.)": "69.0" }
+      ]
+    }
+  ]
+},
+{
+  "__typename": "Product",
+  "id": 525,
+  "title": "Tin Cutter Plier",
+  "description": "Made from carbon steel. Features a plastic-coated steel-cored shaft with handle for a firm grip. Hardened and tempered for durability.",
+  "type": "Cutters and Pincers",
+  "brand": "Varindera Tools",
+  "category": "Cutters and Pincers",
+  "price": null,
+  "stock": null,
+  "new": null,
+  "sale": null,
+  "discount": null,
+  "variants": [
+    {
+      "size": "Standard",
+      "quantity_per_carton": 100,
+      "volume_per_carton": "0.032 cu.m"
+    }
+  ],
+  "images": [
+    {
+      "image_id": "525",
+      "alt": "Tin Cutter Plier",
+      "src": "/assets/images/tools/tin_cutter_plier.jpg"
+    }
+  ],
+  "table": [
+    {
+      "column": [
+        { "field": "Size", "width": 200 },
+        { "field": "Quantity per Carton (Pcs.)", "width": 200 },
+        { "field": "Volume per Carton (Cu.M.)", "width": 200 }
+      ],
+      "rows": [
+        { "Size": "Standard", "Quantity per Carton (Pcs.)": "100", "Volume per Carton (Cu.M.)": "0.032" }
+      ]
+    }
+  ]
+},
+{
+  "__typename": "Product",
+  "id": 526,
+  "title": "End Cutter Plier (Knipex Type)",
+  "description": "Drop forged from carbon steel, duly hardened, and lacquer coated to prevent rust. Available with or without sleeve/painted. Head polished.",
+  "type": "Cutters and Pincers",
+  "brand": "Varindera Tools",
+  "category": "Cutters and Pincers",
+  "price": null,
+  "stock": null,
+  "new": null,
+  "sale": null,
+  "discount": null,
+  "variants": [
+    {
+      "size": "6 inches",
+      "length": "150 mm",
+      "weight": "225 gms",
+      "quantity_per_carton": "125"
+    },
+    {
+      "size": "8 inches",
+      "length": "200 mm",
+      "weight": "300 gms",
+      "quantity_per_carton": "60"
+    }
+  ],
+  "images": [
+    {
+      "image_id": "526",
+      "alt": "End Cutter Plier (Knipex Type)",
+      "src": "/assets/images/tools/end_cutter_plier.jpg"
+    }
+  ],
+  "table": [
+    {
+      "column": [
+        { "field": "Size", "width": 200 },
+        { "field": "Length (mm)", "width": 200 },
+        { "field": "Weight (gms)", "width": 200 },
+        { "field": "Quantity per Carton (Pcs.)", "width": 200 }
+      ],
+      "rows": [
+        { "Size": "6 inches", "Length (mm)": "150", "Weight (gms)": "225", "Quantity per Carton (Pcs.)": "125" },
+        { "Size": "8 inches", "Length (mm)": "200", "Weight (gms)": "300", "Quantity per Carton (Pcs.)": "60" }
+      ]
+    }
+  ]
+},
+{
+  "__typename": "Product",
+  "id": 5261,
+  "title": "Tower Pincer Plier (Half Cut)",
+  "description": "Drop forged from carbon steel, fully hardened and tempered, with lacquer coating to prevent rust. Available in powder coating and nickel chrome finish.",
+  "type": "Cutters and Pincers",
+  "brand": "Varindera Tools",
+  "category": "Cutters and Pincers",
+  "price": null,
+  "stock": null,
+  "new": null,
+  "sale": null,
+  "discount": null,
+  "variants": [
+    {
+      "size": "9 inches",
+      "length": "225 mm",
+      "weight": "370 gms",
+      "quantity_per_carton": "60"
+    },
+    {
+      "size": "10 inches",
+      "length": "300 mm",
+      "weight": "465 gms",
+      "quantity_per_carton": "48"
+    }
+  ],
+  "images": [
+    {
+      "image_id": "5261",
+      "alt": "Tower Pincer Plier (Half Cut)",
+      "src": "/assets/images/tools/tower_pincer_plier_half_cut.jpg"
+    }
+  ],
+  "table": [
+    {
+      "column": [
+        { "field": "Size", "width": 200 },
+        { "field": "Length (mm)", "width": 200 },
+        { "field": "Weight (gms)", "width": 200 },
+        { "field": "Quantity per Carton (Pcs.)", "width": 200 }
+      ],
+      "rows": [
+        { "Size": "9 inches", "Length (mm)": "225", "Weight (gms)": "370", "Quantity per Carton (Pcs.)": "60" },
+        { "Size": "10 inches", "Length (mm)": "300", "Weight (gms)": "465", "Quantity per Carton (Pcs.)": "48" }
+      ]
+    }
+  ]
+},
+{
+  "__typename": "Product",
+  "id": 5262,
+  "title": "Tower Pincer Plier (Round Head)",
+  "description": "Drop forged from carbon steel, fully hardened and tempered, with lacquer coating to prevent rust. Available in powder coating and nickel chrome finish.",
+  "type": "Cutters and Pincers",
+  "brand": "Varindera Tools",
+  "category": "Cutters and Pincers",
+  "price": null,
+  "stock": null,
+  "new": null,
+  "sale": null,
+  "discount": null,
+  "variants": [
+    {
+      "size": "8 inches",
+      "length": "200 mm",
+      "weight": "215 gms",
+      "quantity_per_carton": "60"
+    },
+    {
+      "size": "9 inches",
+      "length": "225 mm",
+      "weight": "310 gms",
+      "quantity_per_carton": "60"
+    },
+    {
+      "size": "10 inches",
+      "length": "250 mm",
+      "weight": "360 gms",
+      "quantity_per_carton": "48"
+    }
+  ],
+  "images": [
+    {
+      "image_id": "5262",
+      "alt": "Tower Pincer Plier (Round Head)",
+      "src": "/assets/images/tools/tower_pincer_plier_round_head.jpg"
+    }
+  ],
+  "table": [
+    {
+      "column": [
+        { "field": "Size", "width": 200 },
+        { "field": "Length (mm)", "width": 200 },
+        { "field": "Weight (gms)", "width": 200 },
+        { "field": "Quantity per Carton (Pcs.)", "width": 200 }
+      ],
+      "rows": [
+        { "Size": "8 inches", "Length (mm)": "200", "Weight (gms)": "215", "Quantity per Carton (Pcs.)": "60" },
+        { "Size": "9 inches", "Length (mm)": "225", "Weight (gms)": "310", "Quantity per Carton (Pcs.)": "60" },
+        { "Size": "10 inches", "Length (mm)": "250", "Weight (gms)": "360", "Quantity per Carton (Pcs.)": "48" }
+      ]
+    }
+  ]
+},
+{
+  "__typename": "Product",
+  "id": 527,
+  "title": "Tower Pincer (with Dip Insulation)",
+  "description": "Drop forged from carbon steel, fully hardened and tempered, with lacquer coating to prevent rust. Available in powder coating and nickel chrome finish.",
+  "type": "Cutters and Pincers",
+  "brand": "Varindera Tools",
+  "category": "Cutters and Pincers",
+  "price": null,
+  "stock": null,
+  "new": null,
+  "sale": null,
+  "discount": null,
+  "variants": [
+    {
+      "size": "8 inches",
+      "length": "200 mm",
+      "weight": "230 gms",
+      "quantity_per_carton": "80"
+    },
+   
+  ],
+  "images": [
+    {
+      "image_id": "527",
+      "alt": "Tower Pincer (with Dip Insulation)",
+      "src": "/assets/images/tools/tower_pincer_dip_insulation.jpg"
+    }
+  ],
+  "table": [
+    {
+      "column": [
+        { "field": "Size", "width": 200 },
+        { "field": "Length (mm)", "width": 200 },
+        { "field": "Weight (gms)", "width": 200 },
+        { "field": "Quantity per Carton (Pcs.)", "width": 200 }
+      ],
+      "rows": [
+        { "Size": "8 inches", "Length (mm)": "200", "Weight (gms)": "230", "Quantity per Carton (Pcs.)": "80" },
+        { "Size": "9 inches", "Length (mm)": "225", "Weight (gms)": "330", "Quantity per Carton (Pcs.)": "60" },
+        { "Size": "10 inches", "Length (mm)": "250", "Weight (gms)": "380", "Quantity per Carton (Pcs.)": "48" }
+      ]
+    }
+  ]
+},
+{
+  "__typename": "Product",
+  "id": 5271,
+  "title": "Cobler Pincer Plier",
+  "description": "Drop forged from carbon steel, fully hardened and tempered, with lacquer coating to prevent rust. Available in powder coating and nickel chrome finish.",
+  "type": "Cutters and Pincers",
+  "brand": "Varindera Tools",
+  "category": "Cutters and Pincers",
+  "price": null,
+  "stock": null,
+  "new": null,
+  "sale": null,
+  "discount": null,
+  "variants": [
+   
+    {
+      "size": "8 inches",
+      "length": "200 mm",
+      "weight": "350 gms",
+      "quantity_per_carton": "60"
+    }
+  ],
+  "images": [
+    {
+      "image_id": "5271",
+      "alt": "Cobler Pincer Plier",
+      "src": "/assets/images/tools/cobler_pincer_plier.jpg"
+    }
+  ],
+  "table": [
+    {
+      "column": [
+        { "field": "Size", "width": 200 },
+        { "field": "Length (mm)", "width": 200 },
+        { "field": "Weight (gms)", "width": 200 },
+        { "field": "Quantity per Carton (Pcs.)", "width": 200 }
+      ],
+      "rows": [
+        { "Size": "6 inches", "Length (mm)": "150", "Weight (gms)": "220", "Quantity per Carton (Pcs.)": "96" },
+        { "Size": "7 inches", "Length (mm)": "175", "Weight (gms)": "300", "Quantity per Carton (Pcs.)": "72" },
+        { "Size": "8 inches", "Length (mm)": "200", "Weight (gms)": "350", "Quantity per Carton (Pcs.)": "60" }
+      ]
+    }
+  ]
+},
+{
+  "__typename": "Product",
+  "id": 528,
+  "title": "Carpenter Pincer Plier",
+  "description": "Drop forged from carbon steel, fully hardened and tempered, with lacquer coating to prevent rust. Available in powder coating and nickel chrome finish.",
+  "type": "Cutters and Pincers",
+  "brand": "Varindera Tools",
+  "category": "Cutters and Pincers",
+  "price": null,
+  "stock": null,
+  "new": null,
+  "sale": null,
+  "discount": null,
+  "variants": [
+    {
+      "size": "6 inches",
+      "length": "150 mm",
+      "weight": "220 gms",
+      "quantity_per_carton": "96"
+    },
+    {
+      "size": "7 inches",
+      "length": "175 mm",
+      "weight": "300 gms",
+      "quantity_per_carton": "72"
+    },
+    {
+      "size": "8 inches",
+      "length": "200 mm",
+      "weight": "350 gms",
+      "quantity_per_carton": "60"
+    }
+  ],
+  "images": [
+    {
+      "image_id": "528",
+      "alt": "Carpenter Pincer Plier",
+      "src": "/assets/images/tools/carpenter_pincer_plier.jpg"
+    }
+  ],
+  "table": [
+    {
+      "column": [
+        { "field": "Size", "width": 200 },
+        { "field": "Length (mm)", "width": 200 },
+        { "field": "Weight (gms)", "width": 200 },
+        { "field": "Quantity per Carton (Pcs.)", "width": 200 }
+      ],
+      "rows": [
+        { "Size": "6 inches", "Length (mm)": "150", "Weight (gms)": "220", "Quantity per Carton (Pcs.)": "96" },
+        { "Size": "7 inches", "Length (mm)": "175", "Weight (gms)": "300", "Quantity per Carton (Pcs.)": "72" },
+        { "Size": "8 inches", "Length (mm)": "200", "Weight (gms)": "350", "Quantity per Carton (Pcs.)": "60" }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
       ]
     }
   }

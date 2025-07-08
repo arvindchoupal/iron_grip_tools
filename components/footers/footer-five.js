@@ -114,7 +114,7 @@ const FooterFive = ({ layoutClass, logoName }) => {
                         <div className="footer-contant">
                           <ul className="contact-details">
                             <li>Dholewal Chowk, Ludhiana Pin 141003</li>
-                            <li>Call Us:  +91 7087497599</li>
+                            <li>Call Us:  +91 7807954787</li>
                             <li>
                               Email Us: <a href="#">exports@irongriptools.in</a>
                             </li>

@@ -52,26 +52,15 @@ if(!sectionDetails[0]){
       <div className="page-main-content">
         <Row>
           <Col sm="12">
-          <div className="top-banner-wrapper">
-              <a href={null}>
-                <Media src={banner.src} style={{
-                  width:'100%',
-                  maxHeight:600
-                }}  alt="" />
-              </a>
-              <div className="top-banner-content small-section">
-                <h4>{
-                  sectionDetails[0].title
-                  }</h4>
-             
-          
-              </div>
-            </div>
+   
             <div className="collection-product-wrapper">
-          
+            <div className="title3">
+                <h2 className="title-inner3">{sectionDetails[0].title}</h2>
+                <div className="line"></div>
+              </div>
               <div className={`product-wrapper-grid ${layout}`}>
                 <Row>
-                  {/* Product Box */}
+         
                   {!data ||
                   !data.products ||
                   !data.products.items ||

@@ -5,7 +5,7 @@ import config from "./config.json";
 
 const ThemeSettings = () => {
   const context = useContext(SettingContext);
-  const [themeLayout, setThemeLayout] = useState(false);
+  const [themeLayout, setThemeLayout] = useState(true);
 
   const layoutState = context.layoutState;
   const [modal, setModal] = useState(false);

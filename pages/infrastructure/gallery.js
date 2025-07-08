@@ -16,7 +16,7 @@ const Infrastructure = () => {
         </p>
         <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px' }}>
         {
-  [1,2,3,5,6,7,8,9,10,11,12,13,15,16,17,18,,22,23,24,26,25,21,19,20].map(i => {
+  [1,2,3,5,6,7,8,9,10,11,12,15,16,17,18,,23,24,26,25,21,19,20].map(i => {
     return (
       <img
         src={`/assets/images/infratur/${i}.jpg`}

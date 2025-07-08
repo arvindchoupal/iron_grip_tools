@@ -148,7 +148,9 @@ const NavBar = () => {
                   className={` ${menuItem.megaMenu ? "mega-menu" : ""}`}
                 >
                   {menuItem.type == "link" ? (
-                    <Link href={menuItem.path} className="nav-link">
+                    <Link href={menuItem.path} style={{
+                      fontWeight:'700'
+                    }} className="nav-link">
                       {/* <a > */}
                       {t(menuItem.title)}
                       {/* </a> */}

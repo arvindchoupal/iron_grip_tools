@@ -84,7 +84,6 @@ const ProductItem = ({ product, addCart, backImage, des, addWishlist, cartClass,
       textAlign: 'center',
       fontSize: '16px',
       fontWeight: 'bold',
-      color: '#333',
       marginTop: 8, // Space between the box and title
       maxWidth: '100%',
     }}

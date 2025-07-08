@@ -209,7 +209,7 @@ const MasterFooterThree = ({ layoutClass, footerSectionLayout, logoName, footerC
                             <i className="fa fa-map-marker"></i>Multikart Demo Store, Demo store India 345-659
                           </li>
                           <li>
-                            <i className="fa fa-phone"></i>Call Us:  +91 7087497599
+                            <i className="fa fa-phone"></i>Call Us:  +91 7807954787
                           </li>
                           <li>
                             <i className="fa fa-envelope-o"></i>Email Us: <a href="#">exports@irongriptools.in</a>

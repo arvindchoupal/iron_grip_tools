@@ -23,14 +23,10 @@ const TopBarDark = ({ topClass, fluid }) => {
           <Col lg="6">
             <div className="header-contact">
               <ul>
-                <li>Welcome to Iron Grip Tools India</li>
                 <li style={{
-                  marginLeft:30
                 }}>
-                  <i style={{
-                    marginRight:5
-                  }} className="fa fa-phone text-white" aria-hidden="true"></i>
-                  Call Us:  +91 7087497599
+
+                  Contact Us:  +91 7807954787, exports@irongriptools.in
                 </li>
               </ul>
             </div>
